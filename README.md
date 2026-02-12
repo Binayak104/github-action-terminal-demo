@@ -8,3 +8,5 @@ This repository demonstrates how to access and manage GitHub Actions directly fr
 - View workflow status: `gh run list`
 - Watch a running workflow: `gh run watch`
 - View logs: `gh run view --log`
+- Rerun a failed workflow: `gh run rerun <run-id>`
+- Cancel a running workflow: `gh run cancel <run-id>`
